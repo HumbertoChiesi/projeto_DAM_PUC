@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">projeto_tcc_dam</string>
+    <string name="abrirNavegador">Abra o Navegador</string>
+    <string name="erroIntent">Erro</string>
+    <string name="cadastrar">Criar uma nova conta</string>
+    <string name="entrar">Entrar</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="aniversario">Data de nascimento</string>
+    <string name="email">Email</string>
+    <string name="nomeProjeto">Assistente de Viagem</string>
+    <string name="atracoes">Atrações Turísticas</string>
+    <string name="sobreNos">Sobre Nos</string>
+    <string name="descricao">Descricao</string>
+</resources>

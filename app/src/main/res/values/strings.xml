@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">projeto_tcc_dam</string>
+    <string name="abrirNavegador">Open Navigator</string>
+    <string name="erroIntent">Error</string>
+    <string name="cadastrar">Sign Up</string>
+    <string name="entrar">Sign In</string>
+    <string name="usuario">Username</string>
+    <string name="senha">Password</string>
+    <string name="aniversario">Date of Birth</string>
+    <string name="email">Email</string>
+    <string name="nomeProjeto">Travel Assistant</string>
+    <string name="atracoes">Tourist Attractions</string>
+    <string name="sobreNos">About Us</string>
+    <string name="descricao">Description</string>
+</resources>

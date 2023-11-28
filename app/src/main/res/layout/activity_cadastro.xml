@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f2f7"
+    android:padding="16dp"
+    android:paddingTop="0dp">
+
+
+    <TextView
+        android:id="@+id/textViewTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/cadastrar"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="117dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="16dp"
+        android:onClick="cadastrarUsuario"
+        android:text="@string/cadastrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDOB" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextDOB"
+        android:layout_width="382dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:background="#E0E0E0"
+        android:hint="@string/aniversario"
+        android:inputType="date"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPswd" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="382dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:background="#E0E0E0"
+        android:hint="@string/email"
+        android:inputType="date"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextName" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextPswd"
+        android:layout_width="382dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="#E0E0E0"
+        android:hint="@string/senha"
+        android:inputType="date"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextName"
+        android:layout_width="382dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="64dp"
+        android:background="#E0E0E0"
+        android:hint="@string/usuario"
+        android:inputType="date"
+        android:paddingStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle2" />
+
+    <ImageView
+        android:id="@+id/imageGoBack"
+        android:layout_width="39dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="4dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="botaoVoltarLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
