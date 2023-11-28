@@ -1,5 +1,5 @@
 ## projeto_DAM_PUC
-Projeto final da matéria desenvolvimento mobile, construir uma interface gráfica com pelo menos 6 telas e interações simples
+Projeto final da matéria desenvolvimento mobile, construir uma interface gráfica com pelo menos 5 telas e interações simples
 
 ## Demonstração visual
 
